@@ -1,0 +1,62 @@
+.root {
+  :global {
+    .wrapper {
+      padding: 0 16px;
+    }
+
+    .feedback-item {
+      padding-top: 15px;
+      .title {
+        margin-bottom: 15px;
+        font-size: 17px;
+        font-weight: 500;
+      }
+    }
+
+    .textarea-wrap {
+      position: relative;
+      padding: 10px;
+      margin-bottom: 12px;
+      border-radius: 8px;
+      background-color: #f7f8fa;
+    }
+
+    .image-picker-desc {
+      margin-top: 8px;
+      color: #969799;
+      font-size: 12px;
+    }
+
+    .input-phone {
+      width: 343px;
+      height: 44px;
+      background: #f7f8fa;
+      border-radius: 4px;
+
+      .adm-input-wrapper {
+        height: 100%;
+        padding-left: 16px;
+      }
+    }
+
+    .feedback-submit {
+      position: absolute;
+      left: 16px;
+      right: 16px;
+      bottom: 50px;
+      padding-top: 0;
+      overflow: hidden;
+
+      button {
+        display: block;
+        height: 44px;
+        width: 100%;
+        border-radius: 4px;
+        text-align: center;
+        font-size: 16px;
+        color: #fff;
+        background: linear-gradient(to right, #fe4f4f, #fc6627);
+      }
+    }
+  }
+}

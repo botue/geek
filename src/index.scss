@@ -1,0 +1,86 @@
+// @charset 'utf-8';
+// @font-face {
+//   font-family: PingFangSC-Regular;
+//   src: url('./assets/fonts/PingFang-Regular.ttf') format('truetype');
+//   font-weight: normal;
+//   font-style: normal;
+// }
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  --font-size: 16px;
+  --adm-font-family: 'PingFangSC-Regular';
+}
+
+.adm-input-wrapper {
+  --font-size: 16px;
+}
+.adm-list-default {
+  border: 0;
+  font-size: 16px;
+}
+.adm-nav-bar-title {
+  font-size: 17px;
+}
+.adm-nav-bar-back-arrow {
+  font-size: 17px;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #fff;
+}
+
+html,
+body,
+#root,
+.app {
+  height: 100%;
+}
+
+h1,
+h3,
+p {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+// 字体图标的通用样式
+.icon {
+  width: 1em;
+  height: 1em;
+  vertical-align: -0.15em;
+  fill: currentColor;
+  overflow: hidden;
+}
+
+// 去掉 input/button 的默认样式
+button {
+  display: block;
+  outline: 0 none;
+  padding: 0;
+  border: 0;
+  border-radius: 8px;
+  -webkit-appearance: none;
+  text-align: center;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  word-break: break-word;
+  white-space: nowrap;
+  color: #000;
+  background-color: #fff;
+}
+
+.text-overflow {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+}

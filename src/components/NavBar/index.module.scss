@@ -1,0 +1,33 @@
+@import '@scss/hairline.scss';
+
+.root {
+  position: relative;
+  height: 44px;
+  line-height: 44px;
+  @include hairline(bottom, #f0f0f0);
+
+  :global {
+    .navbar-left,
+    .navbar-right {
+      position: absolute;
+      top: 0;
+      padding: 0 14px;
+    }
+
+    .navbar-left {
+      left: 0;
+    }
+    .navbar-right {
+      right: 0;
+    }
+
+    .navbar-center {
+      max-width: 60%;
+      margin: 0 auto;
+      text-align: center;
+      overflow: hidden;
+      white-space: nowrap;
+      text-overflow: ellipsis;
+    }
+  }
+}

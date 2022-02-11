@@ -1,0 +1,16 @@
+.root {
+  :global {
+    .no-data {
+      padding-bottom: 34px;
+      text-align: center;
+      color: #969799;
+
+      img {
+        display: block;
+        width: 160px;
+        height: 160px;
+        margin: 12px auto;
+      }
+    }
+  }
+}

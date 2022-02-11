@@ -1,0 +1,26 @@
+.root {
+  position: relative;
+
+  :global {
+    .geek-input {
+      width: 100%;
+      line-height: 58px;
+      font-size: 16px;
+
+      // 给文本框的 placeholder 添加样式
+      &::placeholder {
+        color: #a5a6ab;
+      }
+    }
+
+    // extra 额外的
+    .extra-text {
+      position: absolute;
+      top: 0;
+      right: 0;
+      line-height: 58px;
+      color: #999;
+      font-size: 14px;
+    }
+  }
+}

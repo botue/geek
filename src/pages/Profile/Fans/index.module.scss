@@ -1,0 +1,41 @@
+.root {
+  :global {
+    .tabs {
+      .adm-tabs-content {
+        padding: 0;
+      }
+      .adm-list-item {
+        height: 75px;
+        padding: 0 12px;
+      }
+      .adm-list-item:last-child {
+        border-bottom: 1px solid #ebedf0;
+      }
+      .adm-list-item-content {
+        padding-right: 0;
+      }
+      .adm-tabs-tab-wrapper {
+        flex: unset;
+      }
+      .adm-tabs-tab-line {
+        width: 28px;
+        height: 3px;
+        background: #ee0a24;
+        border-radius: 1px;
+      }
+      .adm-tabs-tab {
+        padding-bottom: 15px;
+        color: #969799;
+        font-size: 14px;
+      }
+      .adm-tabs-tab-active {
+        color: #333;
+        font-weight: 500;
+      }
+    }
+
+    .article-list {
+      padding: 0 16px;
+    }
+  }
+}

@@ -1,0 +1,84 @@
+@import '@scss/hairline.scss';
+
+.root {
+  height: 100%;
+
+  :global {
+    .tabs {
+      height: 100%;
+      padding: 43px 0 50px;
+
+      .adm-tabs-tab-list {
+        position: fixed;
+        top: 0;
+        z-index: 2;
+        width: 269px;
+        background-color: #fff;
+      }
+
+      .adm-tabs-tab {
+        color: #9ea1ae;
+        font-size: 15px;
+      }
+
+      .adm-tabs-tab-active,
+      .adm-tabs-tab-line {
+        color: #333;
+        font-size: 18px;
+      }
+      .adm-tabs-tab-line {
+        background: #fc6627;
+      }
+      .adm-tabs-content {
+        height: 100%;
+        padding: 0;
+      }
+    }
+
+    .tabs-opration {
+      position: fixed;
+      top: 0;
+      right: 0;
+      z-index: 2;
+      display: flex;
+      align-items: center;
+      width: 86px;
+      height: 44px;
+      padding: 0 14px;
+      background: #fff;
+      @include hairline(bottom, #efefef);
+
+      .icon {
+        color: #9ea1ae;
+        font-size: 18px;
+
+        &:first-child {
+          margin-right: 21px;
+        }
+      }
+
+      &::before {
+        content: '';
+        width: 20px;
+        height: 100%;
+        position: absolute;
+        left: -20px;
+        top: 0;
+        background: linear-gradient(to left, #ffffff, rgba(255, 255, 255, 0.3));
+      }
+      &::after {
+        left: -22px;
+      }
+    }
+  }
+}
+
+:global {
+  .channel-popup {
+    .adm-popup-body {
+      background-color: #fff;
+      overflow: auto;
+      -webkit-overflow-scrolling: touch;
+    }
+  }
+}

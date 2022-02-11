@@ -1,0 +1,49 @@
+// 导入 hairline.scss
+@import '@scss/hairline.scss';
+
+.root {
+  :global {
+    .title {
+      margin: 54px 0 30px 32px;
+      color: #333;
+      font-size: 24px;
+      font-weight: 300;
+    }
+
+    .login-wrap {
+      padding: 0 33px;
+    }
+
+    .login-button {
+      width: 309px;
+      height: 50px;
+      margin-top: 38px;
+      color: #fff;
+      font-size: 16px;
+      // background: linear-gradient(315deg, #ff9999, #ffa179);
+      background: linear-gradient(315deg, #fe4f4f, #fc6627);
+      border-radius: 4px;
+    }
+
+    .adm-list-default {
+      border: 0;
+    }
+    .adm-list-item-content {
+      padding: 21px 0;
+    }
+    .adm-list-item {
+      padding-left: 0;
+      margin-bottom: 17px;
+    }
+    .adm-input {
+      line-height: 1;
+      height: 16px;
+      min-height: 16px;
+    }
+
+    // .error {
+    //   position: absolute;
+    //   color: rgb(230, 60, 60);
+    // }
+  }
+}

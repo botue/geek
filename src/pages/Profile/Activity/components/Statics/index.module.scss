@@ -1,0 +1,50 @@
+.root {
+  :global {
+    .statics-list {
+      display: flex;
+      padding: 10px;
+
+      .card {
+        flex: 1;
+        background-color: #f9f9f9;
+        padding: 10px;
+        border-radius: 5px;
+        margin: 0 5px;
+        height: 75px;
+
+        p {
+          padding-bottom: 10px;
+
+          .right-arrow {
+            font-size: 10px;
+          }
+
+          span {
+            font-size: 14px;
+          }
+
+          &:first-child {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            i {
+              color: #999;
+            }
+          }
+
+          &:last-child {
+            span {
+              &:first-child {
+                font-size: 24px;
+                margin-right: 10px;
+              }
+              &:last-child {
+                color: #999;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

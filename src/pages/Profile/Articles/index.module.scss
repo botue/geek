@@ -1,0 +1,12 @@
+.root {
+  :global {
+    .article-item {
+      padding: 0 15px;
+      .article-content {
+        h3 {
+          font-size: 15px;
+        }
+      }
+    }
+  }
+}

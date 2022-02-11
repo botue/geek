@@ -1,0 +1,11 @@
+.root {
+  display: flex;
+
+  :global {
+    .extra {
+      width: 110px;
+      color: #595769;
+      text-align: center;
+    }
+  }
+}
